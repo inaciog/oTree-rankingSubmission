@@ -16,6 +16,10 @@ The user may change the ranking by:
 * Clicking in a selected option in the right pane. This will remove it and put it back to the left pane.
 * By dragging and dropping the options in the right pane (currently this only works in Google Chrome)
 
+# Screenshot
+
+![Preference Submission](http://www.inaciobo.com/sw/oTreePrefs/widget_2.png)
+
 # Usage
 
 When defining the model for the player, you can define the use of the widget as follows:
