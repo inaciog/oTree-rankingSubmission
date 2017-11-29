@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Submit your preference
+{% endblock %}
+
+{% block content %}
+
+    {% formfield player.preference label="" %}
+
+    {% next_button %}
+
+{% endblock %}

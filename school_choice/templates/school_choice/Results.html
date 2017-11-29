@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% for p in group.get_players %}
+<p> {{p.preference}}</p>
+{% endfor %}
+
+{% block content %}
+
+    {% next_button %}
+{% endblock %}
